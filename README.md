@@ -53,3 +53,63 @@ The project structure is organized to support reproducible and scalable data pro
     ├── model_training_script.py      # Script for running model training independently
     ├── dashboard_deploy.py           # Script for deploying Streamlit dashboard
     └── README.md                     # Description of scripts
+
+
+
+
+
+# **FINDINGS**
+## **CUSTOMER OVERVIEW (TASK 1)**
+Key Insights:
+•	Top Handsets: Identified the top 10 handsets, revealing user preferences.
+•	Handset Manufacturers: Top three manufacturers dominate 80% of the market.
+•	Data Usage Insights:
+o	High data consumption in social media and video streaming apps.
+o	Significant variability in session durations.
+
+
+Visualizations:
+•	Bar chart of top handsets and manufacturers.
+•	Decile analysis of total data consumption.
+Recommendation: Focus marketing efforts on partnerships with top handset manufacturers to enhance customer retention.
+
+## **USER ENGAGEMENT ANALYSIS (TASK 2)**
+Key Insights:
+•	Top 10 most engaged users consume over 50% of total bandwidth.
+•	Engagement clusters (k-means clustering, k=3):
+1.	Low Engagement: 70% of users.
+2.	Medium Engagement: 25% of users.
+3.	High Engagement: 5% of users.
+
+
+Visualizations:
+•	Heatmap of app usage frequency.
+•	Elbow method plot for k-means optimization.
+Recommendation: Optimize network resources for medium and high engagement clusters.
+
+## **USER EXPERIENCE ANALYSIS (TASK 3)**
+Key Insights:
+•	Average TCP retransmission rates highlight potential network inefficiencies.
+•	RTT and throughput vary significantly by handset type.
+•	Segmentation (k=3 clusters):
+o	High Experience: Premium handset users.
+o	Medium Experience: Mid-range handset users.
+o	Low Experience: Budget handset users.
+
+
+Visualizations:
+•	Distribution of throughput by handset type.
+•	Boxplot of TCP retransmission rates.
+Recommendation: Invest in network infrastructure to reduce RTT and enhance throughput
+
+## **SATISFACTION ANALYSIS (TASK 4)**
+Key Insights:
+•	Satisfaction scores derived from engagement and experience metrics.
+•	Top 10 satisfied customers primarily from high engagement and experience clusters.
+•	Regression model indicates session frequency as a key satisfaction predictor.
+
+
+Visualizations:
+•	Scatter plot of engagement vs. experience scores.
+•	Satisfaction score distribution.
+Recommendation: Leverage insights to design loyalty programs for top customers.
